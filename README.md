@@ -48,7 +48,7 @@
 # 2 - Structure de la base de donnees
 
 Representation d'un produit en base:
-
+Formattage de clef : `product:<id>`
 ```
 {
 	"id": 1,
@@ -61,6 +61,7 @@ Representation d'un produit en base:
 ```
 
 Representation d'une categorie en base:
+Formattage de clef : `categorie:<id>`
 ```
 {
 	"id": 1,
@@ -70,6 +71,7 @@ Representation d'une categorie en base:
 ```
 
 Representation d'un panier en base:
+Formattage de clef : `cliBasket:<id>`
 ```
 {
 	"panId": "786294172687312983", // AutoGen
