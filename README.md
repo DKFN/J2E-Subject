@@ -47,4 +47,33 @@
 		```
 # 2 - Structure de la base de donnees
 
+Representation d'un produit en base:
 
+```
+{
+	"id": 1,
+	"name": "Produit1",
+	"photoURL": "urlPhoto",
+	"priceBase": 19.99,
+	"promoDiscount": 0.00,
+	"description": "...."
+}
+```
+
+Representation d'une categorie en base:
+```
+{
+	"id": 1,
+	"name": "nomCategorie1",
+	"contents": [1, 2, 3, 4]
+}
+```
+
+Representation d'un panier en base:
+```
+{
+	"panId": "786294172687312983", // AutoGen
+	"contents": [1, 23, 54],
+	"payed": false
+}
+```
