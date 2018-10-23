@@ -1,0 +1,8 @@
+MainContainer:
+    image: gradle
+    postCommand: bootRun
+    runAfterAll: true
+    ports:
+        - [ 80, 80 ]
+RedisContainer:
+    image: redis
