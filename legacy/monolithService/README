@@ -1,0 +1,5 @@
+# First pull the Gradle docker daemon
+`docker pull gradle:4.10.2-jdk7`
+
+# Register an alias to quick gradle
+`alias grady="docker run --rm -v "$PWD":/home/gradle/project -w /home/gradle/project gradle gradle"`
